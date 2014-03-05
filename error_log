@@ -1,0 +1,21 @@
+[22-Dec-2013 09:41:24 Asia/Manila] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/diloeng5/public_html/woqee/application/controllers/home.php on line 9
+[23-Feb-2014 11:30:31 Asia/Manila] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (2014-02-24 00:00:002014-02-23 00:00:00) at position 19 (2): Double date specification' in /home/diloeng5/public_html/woqee/application/views/manage/index.php:89
+Stack trace:
+#0 /home/diloeng5/public_html/woqee/application/views/manage/index.php(89): DateTime->__construct('2014-02-24 00:0...')
+#1 /home/diloeng5/public_html/woqee/system/core/Loader.php(833): include('/home/diloeng5/...')
+#2 /home/diloeng5/public_html/woqee/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#3 /home/diloeng5/public_html/woqee/application/core/MY_Controller.php(58): CI_Loader->view('manage/index', Array)
+#4 /home/diloeng5/public_html/woqee/application/controllers/manage.php(70): MY_Controller->load_main_tpl('manage/index', Array)
+#5 [internal function]: Manage->doctor()
+#6 /home/diloeng5/public_html/woqee/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#7 /home/diloeng5/public_html/woqee/index.php(202): req in /home/diloeng5/public_html/woqee/application/views/manage/index.php on line 89
+[23-Feb-2014 11:35:36 Asia/Manila] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (2014-02-24 00:00:002014-02-23 00:00:00) at position 19 (2): Double date specification' in /home/diloeng5/public_html/woqee/application/views/manage/index.php:89
+Stack trace:
+#0 /home/diloeng5/public_html/woqee/application/views/manage/index.php(89): DateTime->__construct('2014-02-24 00:0...')
+#1 /home/diloeng5/public_html/woqee/system/core/Loader.php(833): include('/home/diloeng5/...')
+#2 /home/diloeng5/public_html/woqee/system/core/Loader.php(419): CI_Loader->_ci_load(Array)
+#3 /home/diloeng5/public_html/woqee/application/core/MY_Controller.php(58): CI_Loader->view('manage/index', Array)
+#4 /home/diloeng5/public_html/woqee/application/controllers/manage.php(70): MY_Controller->load_main_tpl('manage/index', Array)
+#5 [internal function]: Manage->doctor()
+#6 /home/diloeng5/public_html/woqee/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#7 /home/diloeng5/public_html/woqee/index.php(202): req in /home/diloeng5/public_html/woqee/application/views/manage/index.php on line 89

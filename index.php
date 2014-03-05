@@ -33,7 +33,6 @@ if (defined('ENVIRONMENT'))
 	switch (ENVIRONMENT)
 	{
 		case 'development':
-			date_default_timezone_set('Asia/Manila'); 
 			error_reporting(E_ALL);
 		break;
 	

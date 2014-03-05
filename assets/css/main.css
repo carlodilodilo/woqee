@@ -1,0 +1,906 @@
+body {
+  background-color: #e1f3fd;
+}
+
+.clr {
+  clear: both;
+  text-decoration: none !important;
+}
+
+#header {
+  height: 42px;
+  width: 100%;
+  background-image: url( '/assets/images/header_bg.jpg' );
+  background-repeat: repeat-x !important;
+}
+
+#header .header_cont {
+  max-width: 1300px;
+  min-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header .header_cont img {
+  float: left; 
+  margin-left: 12%;
+}
+
+#content_cont {
+  width: 1200px; 
+  margin: 0 auto;
+}
+
+#footer {
+  height: 42px;
+  width: 100%;
+}
+
+#header form {
+  float: left;
+  width: 220px;
+  margin-left: 15%;
+}
+
+#header .quick_search {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  height: 20px;
+  width: 220px;
+  padding: 10px 10px;
+  margin-top: 8px;
+  color: #000;
+}
+
+#header #nav-menu {
+  float: right;
+  margin-right: 15%;
+}
+
+#header #nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#header #nav-menu li {
+  float: left;
+  margin: 0 0.15em;
+}
+
+#header #nav-menu li a {
+  height: 42px;
+  line-height: 42px;
+  float: left;
+  width: 100px;
+  display: inline-block;
+  color: #0d2474;
+  text-decoration: none;
+  text-align: center;
+  color: #FFF;
+}
+
+.container {
+  max-width: 1300px;
+}
+
+.woqee_container {
+  width: 660px;
+  padding: 0;
+  background-color: #FFF;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.woqee_container2 {
+  width: 785px;
+  padding: 0;
+  background-color: #FFF;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+/* Doctor Pages */
+#doctorViewPg .doctor_view_content1 {
+  height: 140px;
+  position: relative;
+}
+
+#doctorViewPg .doctor_view_content1 .edit_link {
+  position: absolute;
+  right: 0;
+  height: 26px;
+  width: 70px;
+  line-height: 26px;
+  background-color: #9fcc3b;
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+}
+
+#doctorEditPg .content_doctor_view {
+  height: auto;
+  border: 1px #000 solid;
+}
+
+#doctorEditPg .content_header {
+  float: left;
+  height: 36px;
+  width: 100%;
+  background-image: url( '/assets/images/header_bg.jpg' );
+  background-repeat: repeat-x;
+  line-height: 36px;
+  color: #FFF;
+  padding-left: 20px;
+}
+
+#doctorEditPg .content_header2 {
+  float: left;
+  height: 36px;
+  width: 50%;
+  background-image: url( '/assets/images/header_bg.jpg' );
+  background-repeat: repeat-x;
+  line-height: 36px;
+  color: #FFF;
+  padding-left: 20px;
+}
+
+#doctorEditPg .doctor_profile {
+  float: left;
+  height: auto;
+  width: 625px;
+  margin-left: 20px;
+  margin-top: 15px;
+  background-color: #FFF;
+}
+
+#doctorEditPg .doctor_profile .basic_image {
+  float: left;
+  width: 125px;
+  height: 185px;  
+}
+
+#doctorEditPg .doctor_profile .basic_profile {
+  float: left;
+  width: 500px;
+  height: auto;
+  min-height: 185px;
+}
+
+#doctorEditPg .doctor_profile .basic_profile .col-md-5,
+#doctorEditPg .doctor_profile .basic_profile .col-md-4,
+#doctorEditPg .doctor_profile .basic_profile .col-md-3 {
+  margin-bottom: 10px;
+}
+
+#doctorEditPg .doctor_profile .basic_profile input {
+  font-size: 13px;
+}
+
+#doctorEditPg .doctor_profile #specializationCont input {
+  float: left;
+}
+#doctorEditPg .doctor_profile .degree_info {
+  text-align: center; 
+  color: #949599;
+}
+
+#doctorEditPg .doctor_profile .clinic_label {
+  width: 240px;
+  margin-bottom: 25px;
+  text-align: right;
+}
+
+#doctorEditPg .general_info_cont {
+  float: left;
+}
+
+#doctorEditPg .general_info_cont .content_header {
+  margin-top: -20px;
+}
+
+#doctorEditPg .clinic_assoc_cont {
+  float: left;
+}
+
+#doctorEditPg .credential_cont {
+  float: left;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+#doctorEditPg .credential_cont .doctor_profile {
+  text-align: center;
+}
+
+#doctorEditPg .doctor_profile2 {
+  float: left;
+  text-align: center;
+  min-height: 320px;
+  height: auto !important;
+  width: 50%;
+  background-color: #FFF;
+  border-right: 1px #000 solid;
+}
+
+#doctorEditPg .doctor_profile2 .assoc_list {
+  float: left;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+#doctorEditPg .doctor_profile2 .assoc_cont {
+  float: left;
+  width: 90%; 
+  height: 60px; 
+  margin: 5px auto;
+}
+
+#doctorEditPg .doctor_profile2 .assoc_cont .assoc_img {
+  border-radius: 5px 5px 5px 5px;
+  border: 1px #000 solid;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+
+#doctorEditPg .doctor_profile2 .assoc_cont .assoc_info {
+  float: left;
+  margin-left: 9px;
+  font-weight: bold;
+  width: 210px;
+  text-align: left; 
+  font-size: 13px;
+  position: relative;
+}
+
+#doctorEditPg .doctor_profile2 .assoc_cont .assoc_info .member_count {
+  font-size: 11px;
+  text-align: left; 
+  color: #949599;
+  float: left;
+}
+
+#doctorEditPg .doctor_profile2 .assoc_cont .assoc_info .remove_assoc {
+  position: absolute;
+  top: 18px;
+  right: 0;
+  color: #F05C3E;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+#doctorEditPg .doctor_profile3 {
+  border-right: none;
+}
+
+/* Manage Page */
+#manageDoctorPg .manage_info_cont {
+  float: left;
+  width: 300px;
+  border: 1px #AAA solid;
+  -webkit-box-shadow:0 0 15px #BBB; 
+  -moz-box-shadow: 0 0 15px #BBB; 
+  box-shadow:0 0 15px #BBB;
+}
+
+#manageDoctorPg .manage_info_cont2 {
+  float: left;
+  margin-left: 20px;
+  width: 460px;
+  border: 1px #AAA solid;
+  -webkit-box-shadow:0 0 15px #BBB; 
+  -moz-box-shadow: 0 0 15px #BBB; 
+  box-shadow:0 0 15px #BBB;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_top {
+  float: left;
+  width: 100%;
+  height: 80px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #DEDEDE),
+    color-stop(1, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -moz-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -webkit-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -ms-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: linear-gradient(to top, #DEDEDE 0%, #FFFFFF 70%);
+  line-height: 50px;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_content {
+  float: left;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_expire {
+  float: left;
+  width: 100%;
+  height: 300px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #DEDEDE),
+    color-stop(1, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -moz-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -webkit-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -ms-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: linear-gradient(to top, #DEDEDE 0%, #FFFFFF 70%);
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_expire div {
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  margin: 0 auto;
+  margin-top: 170px;
+  text-align: center;
+  width: 100%;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_img,
+.edit_admin_info .admin_info_img {
+  border-radius: 5px 5px 5px 5px;
+  border: 1px #000 solid;
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+
+.edit_admin_info .admin_info_img {
+  width: 75px !important;
+  height: 75px !important;
+  margin-top: 0;
+}
+
+.edit_admin_info .admin_info_img img {
+  margin: 0 !important;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_top img {
+
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_top span {
+  float: left;
+  width: 180px;
+  height: 100%;
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_company,
+#manageDoctorPg .manage_info_cont .manage_info_content {
+  float: left;
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px #DEDEDE solid;
+  cursor: pointer;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_content.active, 
+#manageDoctorPg .manage_info_cont .manage_info_content_mini.active {
+  color: #FFF !important;
+  cursor: pointer;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #1C1C1C),
+    color-stop(1, #636468)
+  );
+  background-image: -o-linear-gradient(top, #1C1C1C 0%, #636468 100%);
+  background-image: -moz-linear-gradient(top, #1C1C1C 0%, #636468 100%);
+  background-image: -webkit-linear-gradient(top, #1C1C1C 0%, #636468 100%);
+  background-image: -ms-linear-gradient(top, #1C1C1C 0%, #636468 100%);
+  background-image: linear-gradient(to bottom, #1C1C1C 0%, #636468 100%);
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_company span,
+#manageDoctorPg .manage_info_cont .manage_info_content span, 
+#manageDoctorPg .manage_info_cont .manage_info_content_mini span {
+  float: left;
+  width: 180px;
+  height: 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_content span.single {
+  float: left;
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  margin-top: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_content span.single a,
+#manageDoctorPg .manage_info_cont .manage_info_content_mini span a {
+  color: #000;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_content.active span.single a, 
+#manageDoctorPg .manage_info_cont .manage_info_content_mini.active span a {
+  color: #FFF;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_content span.single a:hover,
+#manageDoctorPg .manage_info_cont .manage_info_content_mini span a:hover {
+  text-decoration: none;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_content.active span.single a:hover,
+#manageDoctorPg .manage_info_cont .manage_info_content_mini.active span a:hover {
+  color: #FFF;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_company p,
+#manageDoctorPg .manage_info_cont .manage_info_content p,
+#manageDoctorPg .manage_info_cont .manage_info_content_mini p {
+  float: left;
+  width: 180px;
+  height: 20px;
+  font-size: 10px;
+  color: #AAA;
+  margin-left: 20px;
+}
+
+#manageDoctorPg .manage_info_cont .manage_info_content_mini {
+  float: left;
+  width: 50%;
+  height: 55px;
+  border-right: 1px #DEDEDE solid;
+  border-bottom: 1px #DEDEDE solid;
+  cursor: pointer;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_top {
+  float: left;
+  width: 100%;
+  height: 40px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #DEDEDE),
+    color-stop(1, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(top, #DEDEDE 0%, #FFFFFF 50%);
+  background-image: -moz-linear-gradient(top, #DEDEDE 0%, #FFFFFF 50%);
+  background-image: -webkit-linear-gradient(top, #DEDEDE 0%, #FFFFFF 50%);
+  background-image: -ms-linear-gradient(top, #DEDEDE 0%, #FFFFFF 50%);
+  background-image: linear-gradient(to top, #DEDEDE 0%, #FFFFFF 50%);
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#manageDoctorPg .manage_info_cont2 .title {
+  float: left;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_top .title {
+ margin-top: 0px; 
+}
+
+#manageDoctorPg .manage_info_cont2 .status {
+  float: left;
+  font-size: 8px;
+  margin-left: 20px;
+  position: absolute;
+  top: 8px;
+}
+
+#manageDoctorPg .manage_info_cont2 .status.pending {
+  color: #96CA4B;
+  font-weight: bold;
+}
+
+#manageDoctorPg .manage_info_cont2 .status.expired {
+  color: #027CC7;
+  font-weight: bold;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_content .title {
+  font-size: 12px;
+}
+
+#manageDoctorPg .manage_info_cont2 .content {
+  float: right;
+  margin-right: 20px;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_content .content {
+  font-size: 12px;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_form {
+  float: left;
+  width: 100%;
+  height: 225px;
+  text-align: center;
+  padding: 15px 0; 
+}
+
+#manageDoctorPg .manage_info_cont2  .removeOfficer.manage_info_form {
+  height: 115px;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_form.event_manager {
+  height: 65px;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_form input {
+  font-size: 12px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom:  10px;
+  text-align: center;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_form .woqee_button {
+  margin-top:  0;
+}
+
+#manageDoctorPg .manage_info_cont2 .manage_info_form p {
+  font-size: 12px;
+  width: 70%;
+  margin: 15px auto;
+  color: #AAA;
+}
+
+#manageDoctorPg .expired_event {
+  height: 300px !important;
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #DEDEDE),
+    color-stop(1, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -moz-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -webkit-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -ms-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: linear-gradient(to top, #DEDEDE 0%, #FFFFFF 70%);
+}
+
+#manageDoctorPg .expired_event h4 {
+  font-weight: bold;
+}
+
+#manageDoctorPg .expired_event span {
+  color: #80C256;
+}
+
+#manageDoctorPg .expired_event img {
+  margin-top: 80px;
+}
+
+#manageDoctorPg .expired_event img.pending {
+  margin-top: 105px;
+}
+
+#manageDoctorPg .event_cont {
+  float: left;
+  height: 90px;
+  width: 100%;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #DEDEDE),
+    color-stop(1, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(top, #DEDEDE 0%, #FFFFFF 20%);
+  background-image: -moz-linear-gradient(top, #DEDEDE 0%, #FFFFFF 20%);
+  background-image: -webkit-linear-gradient(top, #DEDEDE 0%, #FFFFFF 20%);
+  background-image: -ms-linear-gradient(top, #DEDEDE 0%, #FFFFFF 20%);
+  background-image: linear-gradient(to top, #DEDEDE 0%, #FFFFFF 20%);
+  padding-top: 10px;
+}
+
+#manageDoctorPg .event_cont div {
+  float: left;
+  width: 70%;
+  font-size: 13px;
+  margin-left: 30px;
+}
+
+#manageDoctorPg .event_cont div.title {
+  font-weight: bold;
+  margin: 0;
+  margin-left: 30px;
+}
+
+#manageDoctorPg .event_cont div.change {
+  font-weight: bold;
+  margin: 0;
+  margin-left: 30px;
+  cursor: pointer;
+  color: #F05C3E;
+}
+
+#manageDoctorPg .officer_cont {
+  float: left;
+  height: 100px;
+  width: 100%;
+}
+
+#manageDoctorPg .officer_cont img {
+  float: left;
+  max-width: 80px;
+  max-height: 80px;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+#manageDoctorPg .officer_cont div {
+  float: left;
+  width: 70%;
+  font-size: 13px;
+  margin-left: 18px;
+}
+
+#manageDoctorPg .officer_cont div.title {
+  font-weight: bold;
+  margin: 0;
+  margin-left: 18px;
+  margin-top: 22px;
+}
+
+#manageDoctorPg .officer_cont div.message {
+  font-weight: bold;
+  margin: 0;
+  margin-left: 18px;
+  cursor: pointer;
+  color: #F05C3E;
+}
+
+#manageDoctorPg .doctors_holder {
+  float: left;
+  width: 430px;
+  margin-left: 15px;
+}
+
+#manageDoctorPg .doctors_cont {
+  float: left;
+  width: 100px;
+  height: 110px;
+  margin-right: 7px;
+  margin-bottom: 15px;
+}
+
+#manageDoctorPg .doctors_cont img {
+  float: left;
+  max-width: 100px;
+  max-height: 92px;
+}
+
+#manageDoctorPg .doctors_cont .surename {
+  float: left;
+  width: 100%;
+  height: 18px;
+  text-align: center;
+  background-image: url( '/assets/images/surname_bg.jpg' );
+  color: #FFF;
+  line-height: 18px;
+}
+
+#myModal .manage_info_top, 
+#myAssociation .manage_info_top {
+  float: left;
+  width: 100%;
+  height: 40px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #DEDEDE),
+    color-stop(1, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -moz-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -webkit-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -ms-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: linear-gradient(to top, #DEDEDE 0%, #FFFFFF 70%);
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#myModal .manage_info_form, 
+#myAssociation .manage_info_form {
+  float: left;
+  width: 100%;
+  min-width: 520px;
+  height: auto;
+  text-align: center;
+  padding: 15px 0; 
+  background-color: #FFF;
+  position: relative;
+}
+
+.officerModal .manage_info_form {
+  height: auto !important;
+}
+
+.myModal .manage_info_top {
+  float: left;
+  width: 100%;
+  height: 40px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #DEDEDE),
+    color-stop(1, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -moz-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -webkit-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: -ms-linear-gradient(top, #DEDEDE 0%, #FFFFFF 70%);
+  background-image: linear-gradient(to top, #DEDEDE 0%, #FFFFFF 70%);
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.myModal .manage_info_form {
+  float: left;
+  width: 100%;
+  min-width: 520px;
+  height: auto;
+  text-align: center;
+  padding: 15px 0; 
+  background-color: #FFF;
+  position: relative;
+}
+
+.Zebra_DatePicker {
+  top: 200px !important;
+  z-index: 999 !important;
+}
+
+.ui-timepicker-wrapper {
+  width: 290px !important;
+}
+
+#myModal .manage_info_form .form-horizontal,
+#myAssociation .manage_info_form .form-horizontal {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#myModal .manage_info_form .form-horizontal .control-label,
+#myAssociation .manage_info_form .form-horizontal .control-label {
+  width: 150px;
+}
+
+#myModal .manage_info_form .form-horizontal .form-control, 
+#myAssociation .manage_info_form .form-horizontal .form-control {
+  width: 300px;
+}
+
+#myModal .manage_info_form .form-horizontal .col-sm-10, 
+#myAssociation .manage_info_form .form-horizontal .col-sm-10 {
+  width: 300px;
+}
+
+.myModal .manage_info_form .form-horizontal {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.myModal .manage_info_form .form-horizontal .control-label {
+  width: 150px;
+}
+
+.myModal .manage_info_form .form-horizontal .form-control {
+  width: 300px;
+}
+
+.myModal .manage_info_form .form-horizontal .col-sm-10 {
+  width: 300px;
+}
+
+.top_border {
+  border-top: 1px #B5B4B9 solid !important;
+}
+
+.bottom_border {
+  border-bottom: 1px #B5B4B9 solid !important;
+}
+
+.no_left_border {
+  border-right: none !important;
+}
+
+.no_bottom_border {
+  border-bottom: none !important;
+}
+
+.woqee_button {
+  height: auto;
+  width: auto;
+  padding: 6px 10px;
+  color: #FFF;
+  background-color: #9fcc3b;
+  border: 1px #000 solid;
+  margin: 0 auto;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.woqee_button.cancel {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.woqee_button.cancel:hover {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+
+.woqee_button.doctor_edit {
+  margin-left: 48%;
+}
+
+.datepicker{
+  z-index:1151;
+}
+
+.myModal input.whole_block {
+  font-size: 12px;
+  width: 90% !important;
+  margin: 0 auto;
+  margin-bottom:  10px;
+  text-align: center;
+}
+
+#clinic_form .clinic_days {
+  width: 120px;
+  display: inline-block;
+}

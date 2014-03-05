@@ -1,0 +1,148 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #FFF;
+}
+
+.form-signin {
+  text-align: center;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin h3 {
+	text-align: center;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border-color: #a3a3a3;
+}
+.form-signin .button-cont {
+  height: 50px;
+}
+.form-signin input[type="password"] {
+  text-align:center;
+  margin-bottom: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border-color: #a3a3a3;
+}
+.form-signin button {
+  width: 120px;
+  float: left;
+  color: #000;
+  border-color: #a3a3a3;
+  background-color: #eff0f2;
+}
+.form-signin .forgot-password {
+	margin: 10px 0 0 15px;
+	float: left;
+}
+hr.faded {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  margin: 1.4em 0;
+  border: none; 
+  background: #000;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(175,175,175)),
+      color-stop(0.9, rgb(175,175,175)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(175,175,175) 10%,
+      rgb(175,175,175) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+
+.gradient-top {
+	height: 130px;
+	width: 100%;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #DEDEDE),
+		color-stop(1, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(top, #DEDEDE 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(top, #DEDEDE 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(top, #DEDEDE 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(top, #DEDEDE 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to top, #DEDEDE 0%, #FFFFFF 100%);
+  text-align: center;
+}
+
+.gradient-top span {
+  font-size: 20px;
+}
+
+.gradient-top img {
+  margin-top: 10px;
+}
+
+.gradient-bottom {
+  height: 100px;
+  width: 100%;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #DEDEDE),
+    color-stop(1, #FFFFFF)
+  );
+  background-image: -o-linear-gradient(bottom, #DEDEDE 0%, #FFFFFF 100%);
+  background-image: -moz-linear-gradient(bottom, #DEDEDE 0%, #FFFFFF 100%);
+  background-image: -webkit-linear-gradient(bottom, #DEDEDE 0%, #FFFFFF 100%);
+  background-image: -ms-linear-gradient(bottom, #DEDEDE 0%, #FFFFFF 100%);
+  background-image: linear-gradient(to bottom, #DEDEDE 0%, #FFFFFF 100%);
+  margin-top: 20px;
+}
+
+#loginPg a, #forgotPg a {
+  color: #ef5a3e; 
+}
+
+#loginPg .nav-justified, #forgotPg .nav-justified {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#forgotPg .form-signin button {
+  margin: 0 auto;
+  float: none;
+}
